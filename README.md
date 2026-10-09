@@ -95,6 +95,15 @@ game development, but almost no tooling that teaches agents how Roblox actually
 works. StudioPilot is that missing layer: practical, opinionated, and built
 from real Roblox development workflows.
 
+## How it relates to Roblox's official Studio MCP
+
+Roblox's official MCP server bridges AI assistants into a live Studio session:
+it can read and edit the open place. StudioPilot is the layer underneath that
+makes the generated code correct in the first place: project scaffolding, Luau
+conventions, client/server boundary rules, linting, and expert skills. They
+complement each other. StudioPilot produces correct code and structure; the
+Studio MCP puts it into your live game. Use both.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
